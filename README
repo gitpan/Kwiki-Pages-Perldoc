@@ -3,6 +3,10 @@ NAME
 
 SYNOPSIS
 DESCRIPTION
+    This is the page database module that supports http://perldoc.kwiki.org.
+    It is meant to access the pod files directly out of a Perl source
+    distribution. You also need Kwiki::Formatter::Pod.
+
 AUTHOR
     Brian Ingerson <INGY@cpan.org>
 

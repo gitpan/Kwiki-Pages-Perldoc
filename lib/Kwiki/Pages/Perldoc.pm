@@ -1,15 +1,13 @@
 package Kwiki::Pages::Perldoc;
-use strict;
-use warnings;
-use Kwiki::Pages '-Base';
-use Kwiki::Installer '-base';
-our $VERSION = '0.10';
+use Kwiki::Pages -Base;
+use Kwiki::Installer -base;
+our $VERSION = '0.11';
 
 const page_class => 'Kwiki::Page::Perldoc';
 
 sub init {
     super;
-    $self->config->add_file('pages.yaml');
+    $self->hub->config->add_file('pages.yaml');
 }
 
 sub all {
@@ -41,7 +39,6 @@ sub file_path {
 }
 
 package Kwiki::Pages::Perldoc;
-1;
 __DATA__
 
 =head1 NAME
