@@ -1,7 +1,7 @@
 package Kwiki::Pages::Perldoc;
 use Kwiki::Pages -Base;
 use Kwiki::Installer -base;
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 const page_class => 'Kwiki::Page::Perldoc';
 
